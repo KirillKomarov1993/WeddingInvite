@@ -1,88 +1,33 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Алина и Арсений — Приглашение на свадьбу</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Georgia', serif;
-      background-color: #fdfaf7;
-      color: #4a4a4a;
-      line-height: 1.6;
-    }
-    .cover {
-      background: url('cover_alina_arseniy.jpg') center/cover no-repeat;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      text-shadow: 0 1px 3px rgba(0,0,0,0.6); 
-      text-align: center;
-      padding: 2rem;
-    }
-    .cover h1 {
-      font-size: 2.5rem;
-      margin: 0;
-    }
-    .cover h2 {
-      font-size: 1.2rem;
-      font-weight: normal;
-    }
-    section {
-      max-width: 700px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-    h3 {
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 0.3rem;
-      margin-bottom: 1rem;
-      font-size: 1.5rem;
-    }
-    .rsvp-form input, .rsvp-form textarea {
-      width: 100%;
-      padding: 0.5rem;
-      margin: 0.5rem 0;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-    }
-    .rsvp-form button {
-      background-color: #d9c3a1;
-      color: white;
-      padding: 0.6rem 2rem;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-    }
-    .timeline p {
-      margin: 0.5rem 0;
-    }
-    footer {
-      text-align: center;
-      padding: 2rem;
-      font-size: 0.9rem;
-      color: #888;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="cover">
     <h1>Алина & Арсений</h1>
-    <h2>приглашают вас на свадьбу<br>10 июля 2024 года</h2>
+    <h2>приглашают вас на свадьбу<br>5 июля 2025 года</h2>
   </div>
 
   <section>
-    <h3>Дорогие гости!</h3>
-    <p>Мы рады пригласить вас на наш особенный день. Это будет праздник любви, красоты и настоящих эмоций. Нам будет очень приятно видеть вас рядом в этот день!</p>
+    <h3>Дорогие родные и близкие!</h3>
+    <p>Мы давно ждали момента, когда сможем разделить с вами самый важный и счастливый день в нашей жизни.
+       Совсем скоро состоится наша свадьба! Мы рады пригласить вас стать свидетелями этого торжества и разделить с нами самые яркие моменты!</p>
   </section>
 
   <section>
     <h3>Место проведения</h3>
-    <p>Загородный комплекс «LOFT HOLL», г. Москва, Ленинская Слобода, 26с25</p>
+    <p>Праздничный ужин пройдёт в «LOFT HOLL», г. Москва, Ленинская Слобода, 26с25 в 18-00</p>
   </section>
 
   <section>
@@ -91,7 +36,19 @@
   </section>
 
   <section>
-    <h3>RSVP</h3>
+    <h3>Цветовая палитра</h3>
+    <p>Просим вас ориентироваться на следующие оттенки:</p>
+    <div class="palette-strict">
+      <div class="circle" style="background-color: #F8E4DD;"></div>
+      <div class="circle" style="background-color: #ECD1BE;"></div>
+      <div class="circle" style="background-color: #F7DBD7;"></div>
+      <div class="circle" style="background-color: #F5E8D7;"></div>
+      <div class="circle" style="background-color: #F4D0D0;"></div>
+    </div>
+  </section>
+
+  <section>
+    <h3>Подтвердите, пожалуйста, присутствие на торжестве</h3>
     <form class="rsvp-form">
       <input type="text" placeholder="Имя и фамилия" required>
       <input type="tel" placeholder="Телефон">
@@ -101,8 +58,9 @@
   </section>
 
   <footer>
-    Мы будем счастливы видеть вас на нашем торжестве ❤️<br>
-    Алина и Арсений
+    <div class="footer-content">
+    Мы будем счастливы видеть Вас!
+  </div>
   </footer>
 </body>
 </html>
