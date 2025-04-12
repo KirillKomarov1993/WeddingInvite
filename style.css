@@ -91,7 +91,7 @@ h3 {
   
 
 footer {
-    background: url('image/footer.jpeg') center 25%/cover no-repeat;
+    background: url('image/footer.JPEG') center 25%/cover no-repeat;
     color: white;
     min-height: 1000px;
     display: flex;
