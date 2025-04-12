@@ -7,11 +7,11 @@ body {
 }
 
 .cover {
-  background-image: url('image/head.JPEG');
+  background-image: url('image/head.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center 25%;
-  height: 100vh;
+  background-position: center;
+  height: 150vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -91,9 +91,9 @@ h3 {
   
 
 footer {
-    background: url('image/footer.jpg') center/cover no-repeat;
+    background: url('image/footer.jpeg') center 25%/cover no-repeat;
     color: white;
-    min-height: 1400px;
+    min-height: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
