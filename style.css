@@ -68,6 +68,15 @@ h3 {
   cursor: pointer;
 }
 
+.rsvp-form button:active {
+  background-color: #b89f7c; /* темнее, чем основной цвет */
+}
+
+.button-sent {
+  background-color: #a3c48b !important; /* мягкий зелёный */
+  transition: background-color 0.3s ease;
+}
+
 .timeline p {
   margin: 0.5rem 0;
 }
