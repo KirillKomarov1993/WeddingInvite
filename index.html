@@ -83,20 +83,21 @@
       button.classList.add('button-sent');
       button.textContent = "✓ Отправляется...";
   
-      // ✅ Считываем данные
+      // ✅ Собираем данные
       const data = {
         name: form.name.value,
         phone: form.phone.value,
         message: form.message.value
       };
   
-      // ✅ Отправляем запрос — но НЕ ждём, чтобы UI не тормозил
+      // ✅ Отправка в Google Таблицу
       fetch("https://script.google.com/macros/s/AKfycbzgx4HsApOlL6DgoQRWcLZ5wfOogSbkfoRpx8J036-0G69Rf31MT4myhGv8guZO42Wq3g/exec", {
         method: "POST",
         body: JSON.stringify(data)
       }).then(response => {
         if (response.ok) {
-          // Показываем "Спасибо"
+          // Показываем сообщение, скрываем форму
+          form.style.display = 'none';
           document.getElementById('thanks').style.display = 'block';
         } else {
           button.textContent = "Ошибка 😢";
@@ -106,13 +107,9 @@
         button.textContent = "Ошибка 😢";
         button.style.backgroundColor = '#b86f6f';
       });
-  
-      // ✅ Через 2 секунды — перезагрузка
-      setTimeout(() => {
-        window.location.reload();
-      }, 2000);
     });
   </script>
+  
   
   
 
