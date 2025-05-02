@@ -72,6 +72,15 @@ h3 {
   margin: 0.5rem 0;
 }
 
+.thanks-message {
+  display: none; /* скрыта по умолчанию */
+  margin-top: 1rem;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #4a4a4a;
+}
+
 
 .palette-strict {
     display: flex;
@@ -161,5 +170,34 @@ footer {
       min-height: 600px;
       padding: 2rem 1rem;
     }
+
+    .rsvp-form input,
+  .rsvp-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+
+  .rsvp-form button {
+    background-color: #d9c3a1;
+    color: white;
+    padding: 0.6rem 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+
+  .thanks-message {
+    display: none; /* скрыта по умолчанию */
+    margin-top: 1rem;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #4a4a4a;
+  }
   }
   
